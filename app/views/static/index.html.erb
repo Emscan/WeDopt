@@ -4,4 +4,6 @@
 	<p>Welcome Video</p>
 	<div id="content"></div>
 	<%= react_component("CommentBox") %>
+	<%= react_component("CommentBox data={data}") %>
+	<%= react_component("CommentBox url='/api/comments' pollInterval={2000}") %>
 </body>
